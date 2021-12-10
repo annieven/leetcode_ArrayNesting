@@ -3,9 +3,9 @@
 #include <string.h>
 
 int subTest(int* nums, int numsSize, unsigned char* invalid, int indexStart){
-    int result[numsSize];
+	int result[numsSize];
 	int index = indexStart;
-    int i = 0;
+	int i = 0;
 
 	memset(result, 0, sizeof(result));
 
@@ -29,9 +29,9 @@ int subTest(int* nums, int numsSize, unsigned char* invalid, int indexStart){
 
 int arrayNesting(int* nums, int numsSize){
 	unsigned char invalid[numsSize];
-    int i, size, longest;
+	int i, size, longest;
 	int index = 0;
-	
+
 	memset(invalid, 0, sizeof(invalid));
 	longest = subTest(nums, numsSize, invalid, index);
 
@@ -42,7 +42,7 @@ int arrayNesting(int* nums, int numsSize){
 			if (invalid[i] == 0)
 				break;
 		}
-		
+
 		if (i >= numsSize)
 			break;
 
