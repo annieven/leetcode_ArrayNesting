@@ -1,7 +1,7 @@
 # leetcode_ArrayNesting
 
 ## URL
-leetcode #565
+leetcode 0565
 <https://leetcode.com/problems/array-nesting/>
 
 ## git cmd
